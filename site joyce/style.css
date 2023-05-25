@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #361a07;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.sertanejo-imagem{
+    width: 25%;
+}
+
+#Sertanejo{
+    background-image: linear-gradient(#361a07,#f1bf34);
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.sertanejo-div-conteudo{
+    width: 35%;
+}
+
+
+.sertanejo-titulo{
+    padding: 24px 0;
+}
+
+#cantor{
+    padding: 24px 0;
+}
+
+
+.cantor-imagem{
+    width: 120px;
+}
+
+.cantor-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.cantor-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.cantor-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cantor-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
